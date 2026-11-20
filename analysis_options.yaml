@@ -1,0 +1,5 @@
+analyzer:
+  errors:
+    # Keep analysis useful but never block a build on style-only findings.
+    unused_import: warning
+    unused_local_variable: warning

@@ -1,0 +1,27 @@
+name: juz30_hifz
+description: Offline random-ayah revision app for Hifz of Juz 30 (Amma Para).
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.0 <5.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  shared_preferences: ^2.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/quran/juz30.json
+
+  fonts:
+    - family: KFGQPC
+      fonts:
+        - asset: assets/fonts/KFGQPC_Uthmanic_Script_Hafs.otf
